@@ -1,17 +1,28 @@
 /*Stylesheet*/
 
 body {
-   background-color: red; 
-   color: blue;
+   background-color: #283747;
+   font-family: 'Arimo', sans-serif;
+   
 }
 
+header{
+    padding: 20px;
+
+}
 .navbar
 {
-    background-color: pink;
+    display: inline-flex;
     text-align: right;
+    color: white;
 
 }
 
+.jumbotron
+{
+    background-color: DE354C;
+    text-align: center;
+}
 
 
 
