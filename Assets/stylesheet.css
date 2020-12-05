@@ -1,9 +1,16 @@
-/*Stylesheet/
+/*Stylesheet*/
 
-/*forms code from Bootstrap*/
+body {
+   background-color: red; 
+   color: blue;
+}
 
+navbar
+{
+    background-color: pink;
+    text-align: right;
 
-/*styling*/
+}
 
 
 
