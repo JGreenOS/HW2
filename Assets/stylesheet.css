@@ -3,30 +3,28 @@
 *
  {
     box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
  }
 .responsive {
     width: 100%;
     height: auto;
 }
-.container{
-    padding-left: 20px;
-}
-
- .column
+.container
 {
-    float:left;
-    width: 33%;
-    padding: 0 10px;
+    padding-left: 20px;
 }
 
 body {
    background-color: #283747;
    font-family: 'Arimo', sans-serif;
+   font-size: 16px;
    
 }
 
 .card {
     margin: 30px;
+    font-size: 20;
 }
 
 .card-img-top{
@@ -48,7 +46,11 @@ header{
     display: inline-flex;
     text-align: right;
     color: white;
+}
 
+.nav-link
+{
+    font-size: 50px;
 }
 
 .jumbotron
@@ -58,4 +60,7 @@ header{
 }
 footer{
     flex-shrink: 0;
+    width: 100%;
+    padding: 0px;
+
 }
