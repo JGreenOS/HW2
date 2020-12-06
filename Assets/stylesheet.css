@@ -3,8 +3,10 @@
 *
  {
     box-sizing: border-box;
-    
-
+ }
+.responsive {
+    width: 100%;
+    height: auto;
 }
 .container{
     padding-left: 20px;
