@@ -56,3 +56,6 @@ header{
     background-color: DE354C;
     text-align: center;
 }
+footer{
+    flex-shrink: 0;
+}
