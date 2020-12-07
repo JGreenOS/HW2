@@ -1,11 +1,18 @@
 /*Stylesheet*/
-
+/*Last modified on 12-6-2020 by JGreen*/
 *
  {
     box-sizing: border-box;
     font-family: "Arimo", sans-serif;
     font-size: 20px;
  }
+ /*Sets jumbotron and responsive img for jumbotron*/
+
+.jumbotron
+{
+    background-color: DE354C;
+    text-align: center;
+}
 .responsive {
     width: 100%;
     height: auto;
@@ -14,14 +21,14 @@
 {
     padding-left: 20px;
 }
-
+/*Sets body style; with Google font*/
 body {
    background-color: #283747;
    font-family: 'Arimo', sans-serif;
    font-size: 16px;
    color: white;
 }
-
+/*Sets style for cards used on portfolio page*/
 .card {
     margin: 30px;
     font-size: 20;
@@ -35,12 +42,12 @@ body {
     margin-right: auto;
     width: 50%;
 }
-
-
+/*Sets style for header*/
 header{
     padding: 20px;
 
 }
+/* Navbar and nav-link sets custom style*/
 .navbar
 {
     display: inline-flex;
@@ -48,23 +55,20 @@ header{
     color: white;
     width: 100%;
     left: 0;
-
-}
-
-.form-group
-{   color: white
-
 }
 .nav-link
 {
     font-size: 30px;
 }
 
-.jumbotron
-{
-    background-color: DE354C;
-    text-align: center;
+/*Sets form controls to white text for dark background*/
+.form-group
+{   color: white
+
 }
+
+/*Sets properties for footer*/
+
 footer{
     flex-shrink: 0;
     width: 100%;
