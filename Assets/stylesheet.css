@@ -19,7 +19,7 @@ body {
    background-color: #283747;
    font-family: 'Arimo', sans-serif;
    font-size: 16px;
-   
+   color: white;
 }
 
 .card {
@@ -51,6 +51,10 @@ header{
 
 }
 
+.form-group
+{   color: white
+
+}
 .nav-link
 {
     font-size: 30px;
