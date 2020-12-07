@@ -46,6 +46,10 @@ header{
     display: inline-flex;
     text-align: right;
     color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+
 }
 
 .nav-link
