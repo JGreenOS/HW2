@@ -18,6 +18,10 @@ Source 2: <blockquote class="badgr-badge" style="font-family: Helvetica, Roboto,
 
 The blockquote was very difficult to work with as the styles are built into this code as I was attempting to limit the number of styles included in the responsive HTML.  In the end, I was able to complete the homework by downloading the icon and using the metadata to build the cards on the portfolio page.
 
+The use of the maxcdn bootstrap template was crucial to this project as I did not have to build any breakpoints in the HTML as it was handled nicely in the existing template.
+
+Next steps for this project would include a deeper understanding of how to use the native API from Badgr via JavaScript and more styling on the form.  Additionally, the portfolio page is considered incomplete as it is a proof-of-concept and needs additional personal information to be useful and practical.
+
 
 
 
