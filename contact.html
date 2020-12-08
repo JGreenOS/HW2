@@ -3,16 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
+  <!--set viewpport to device width and initial scale-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--reference fontawesome for small robot graphic in footer-->
   <script src="https://use.fontawesome.com/dec7becec7.js"></script>
   <!--cdn for bootstrap from w3 schools-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--stylesheet for index.html, portfolio.html and contact.html-->
   <link rel="stylesheet" href="./Assets/stylesheet.css">
-  <title>Julia Green Portfolio</title>
+  <!--reference for Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet" type="text/css">
+  <title>Julia Green Portfolio</title>
+  
 </head>
 
 <header>
+  <!--Nav bar for contact.html-->
   <div class="wrapper">
     <div class="container-fluid">
       <h1>Julia Green</h1>
@@ -32,39 +38,49 @@
 
 <body>
   <div class="container-fluid">
+    <!--Beginning of form, user direction-->
     <div class="row"></div>
     <p> Use this form to send me an email</p>
     <form>
       <div class="form-group row">
+        <!--Creates label for email-->
         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-10">
+          <!--creates email input; no validation yet-->
           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
         </div>
       </div>
       <div class="form-group row">
+        <!--Creates label for subject of email-->
         <label for="inputPassword3" class="col-sm-2 col-form-label">Subject</label>
         <div class="col-sm-10">
+          <!--create subject input; no validation yet-->
           <input type="subject" class="form-control" id="subject1" placeholder="Subject">
         </div>
       </div>
 
-
       <div class="form-group row">
+        <!--Submit button-->
         <div class="col-sm-10">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </form>
   </div>
-
+<!--End of contact card, beginning of sticky footer-->
   <footer>
     <div class="wrapper">
       <div class="jumbotron footer">
+         <!--Using wrapper, jumbotron and footer elements to create footer-->
         <div row>
+          <!--Link 1 row 1-->
           <a href="https://www.gardendesign.com/flowers/easy.html"> Growing Awesome Flowers</a>
         </div>
+        <!--Links for row 2-->
         <a href="www.killerbees33.com"> FIRST Robotics Team 33 - the Killer Bees </a>
+         <!--Easter Egg of android robot, as the two links on this row are for FIRST Robotics Competition mentoring-->
         <i class="fa fa-android icon-3x" aria-hidden="true"></i>
+        <!--Link to Digital Badging project, under construction/rebuild after original software was deprecated-->
         <a href="www.firstbadges.com"> Digital Badging - Demonstration project </a>
       </div>
     </div>
