@@ -12,6 +12,7 @@
 {
     background-color: DE354C;
     text-align: center;
+    color: black;
 }
 .responsive {
     width: 100%;
@@ -42,6 +43,11 @@ body {
     margin-right: auto;
     width: 50%;
 }
+.card-text
+{
+    color: black;
+
+}
 /*Sets style for header*/
 header{
     padding: 20px;
@@ -59,6 +65,7 @@ header{
 .nav-link
 {
     font-size: 30px;
+    color: white;
 }
 
 /*Sets form controls to white text for dark background*/
