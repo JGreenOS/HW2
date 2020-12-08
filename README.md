@@ -1,18 +1,20 @@
 # Responsive Portfolio #
 
+Last updated on 12/7/2020 by JGreen.
+
 Project is located at: https://jgreenos.github.io/HW2/index.html
 
-As a digital badging pioneer, I advocate for badge earners to display their achievements proudly via social media, email footers and more.  However, I am curious on how these badges would be displayed in a responsive website portfolio as I think it would get more "traffic" for the recipients.
+As a digital badging pioneer, I advocate for badge earners to display their achievements proudly via social media, email footers and more.  However, I am curious on how these badges would be displayed in a responsive website portfolio as I think it would get more "traffic" for the recipients showcasing their work for future employers.
 
 This project is a simple 3 page site, with an index/home page, a portfolio page showcasing how digital badges can be displayed in a responsive card format and a contact me page.  
 
-In this project, I spent a bulk of the time experimenting with digital badge icons from my personal badge backpack. From the backpack (www.badgr.io) I can obtain dynamic, interactive content which will validate/ verify that I am the badge earner. Each badge icon is "baked" with metadata that points back to the evidence, date, learner and criterion for earning the badge.  The evidence can be a representation of the work done by the earner and the issuance of the badge demostrates the learner has met minimum 
+ I spent a bulk of the time experimenting with digital badge icons from my personal badge backpack. From the backpack (www.badgr.io) I can obtain dynamic, interactive content which will validate/ verify that I am the badge earner. Each badge icon is "baked" with metadata that points back to the evidence, date, learner and criterion for earning the badge.  The evidence can be a representation of the work done by the earner and the issuance of the badge demostrates the learner has met minimum rrequirements as set by the issuer.
 
-Aside:  Quality digital badges are popular with learning communities as they represent competencies, skills and knowledge at a particular point in time.  Earning a badge is set by the badge issuer and issuers can design eye-catching emblems to represent their badges.  When the badge is issued using the Open Badges standard https://www.imsglobal.org/activity/digital-badges.  Relevant to this project is the testing of an Badge API in progress by IMS Global.
+Aside:  Quality digital badges are popular with learning communities as they represent competencies, skills and knowledge at a particular point in time.  Earning a badge is set by the badge issuer and issuers can design eye-catching emblems to represent their badges.  When the badge is issued using the Open Badges standard https://www.imsglobal.org/activity/digital-badges the meta-data is "baked" into the badge image and can be verified by any entity. Relevant to this project is the testing of an Badge API in progress by IMS Global for further interactivity.
 
-Difficulties encountered in this project inlude how to handle the data from the Badgr Backpack.  I was unable to do a direct connection from the live website to the Badgr backpack as the existing technology uses iframes.  While this is possbile to do this with CSS, it is on my list of future improvements of this page.  JavaScript is another possiblity but it is beyond the scope of this project.
+Difficulties encountered in this project inlude how to handle the data from the Badgr Backpack.  I was unable to do a direct connection from the live website to the Badgr backpack as the existing technology uses iframes. While this is possbile to do this with CSS, it is on my list of future improvements of this page. JavaScript is another possiblity but it is beyond the scope of this project.
 
-After working with the link which is an API or the HTML (Sample of the source I was attempting to manipulate: 
+After working with the link which is an API or the HTML (Sample of the source I was attempting to manipulate): 
 
 Source 1: <iframe src="https://api.badgr.io/public/assertions/ksu78T2OSxKxuYh5O1VVqg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186" title="Badge: NI roboRIO Robot Control" style="width: 330px; height: 186px; border: 0px;"></iframe>
 
@@ -22,7 +24,7 @@ The blockquote was very difficult to work with as the styles are built into this
 
 The use of the maxcdn bootstrap template was crucial to this project as I did not have to build any breakpoints in the HTML as it was handled nicely in the existing template.
 
-Next steps for this project would include a deeper understanding of how to use the native API from Badgr via JavaScript and more styling on the form.  Additionally, the portfolio page is considered incomplete as it is a proof-of-concept and needs additional personal information to be useful and practical.
+Next steps for this project would include a deeper understanding of how to use the native API from Badgr via JavaScript and more styling and functionality on the form. Additionally, the portfolio page is considered incomplete as it is a proof-of-concept and needs additional personal information to be useful and practical.
 
 
 
