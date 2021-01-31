@@ -6,6 +6,7 @@
     font-family: "Arimo", sans-serif;
     font-size: 20px;
  }
+
  /*Sets jumbotron and responsive img for jumbotron*/
 
 .jumbotron
@@ -29,6 +30,11 @@ body {
    font-size: 16px;
    color: white;
 }
+
+/*.btn-group {
+
+}
+
 /*Sets style for cards used on portfolio page*/
 .card {
     margin: 30px;
