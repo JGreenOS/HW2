@@ -61,7 +61,7 @@ body {
     font-family: 'Arimo', sans-serif;;
 }
 .contact-column {
-column-count: 3;
+column-count: 4;
 column-width: 100px;
 padding: 20px;
 column-gap: 50px;
