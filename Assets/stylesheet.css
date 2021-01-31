@@ -1,12 +1,20 @@
 /*Stylesheet*/
-/*Last modified on 12-6-2020 by JGreen*/
+/*Last modified on 1-31-2021 by JGreen*/
 *
  {
     box-sizing: border-box;
     font-family: "Arimo", sans-serif;
     font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
  }
+ 
+ h5 {
+     font-family: 'Arimo', sans-serif;
+     font-size: 30px;
+     color: black;
 
+ }
  /*Sets jumbotron and responsive img for jumbotron*/
 
 .jumbotron
@@ -20,8 +28,10 @@
     height: auto;
 }
 .container
-{
+{ 
     padding-left: 20px;
+    display: grid;
+
 }
 /*Sets body style; with Google font*/
 body {
@@ -31,29 +41,27 @@ body {
    color: white;
 }
 
-/*.btn-group {
-
-}
-
 /*Sets style for cards used on portfolio page*/
 .card {
     margin: 30px;
     font-size: 20;
+    color: black;
 }
 
 .card-img-top{
-    max-width: 120px;
-    max-height: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    vertical-align: center;
+    
 }
 .card-text
 {
     color: black;
-
+    font-family: 'Arimo', sans-serif;;
 }
+
+
 /*Sets style for header*/
 header{
     padding: 20px;
