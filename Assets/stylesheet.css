@@ -60,7 +60,13 @@ body {
     color: black;
     font-family: 'Arimo', sans-serif;;
 }
+.contact-column {
+column-count: 3;
+column-width: 100px;
+padding: 20px;
+column-gap: 50px;
 
+}
 
 /*Sets style for header*/
 header{

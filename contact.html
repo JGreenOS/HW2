@@ -25,11 +25,14 @@
       <nav class="navbar navbar-expand-md justify-content-center">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a></li>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a></li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -39,52 +42,67 @@
 <body>
   <div class="container-fluid">
     <!--Beginning of form, user direction-->
+
+    <div class="row column-count">
+      <i class="fa fa-github fa-9x"></i> <a href="https://github.com/JGreenOS" target="_blank">Click to jump to my
+        Github</a>
+      <i class="fa fa-envelope-o fa-fw"></i><a href="mailto:jsciteach@aol.com" target="_blank">Email Me </a>
+
+      <i class="fa fa-file-pdf-o fa-9x"></i> <a href="./Assets/2021Resume.pdf" target="_blank">Click to view current
+        resume</a>
+
+    </div>
+
+  </div>
+    <!--
     <div class="row"></div>
-    <p> Use this form to send me an email</p>
-    <form>
+    
+      <p> Use this form to send me an email</p>
+    
+      <form>
       <div class="form-group row">
-        <!--Creates label for email-->
+       
         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-10">
-          <!--creates email input; no validation yet-->
+         
           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
         </div>
       </div>
       <div class="form-group row">
-        <!--Creates label for subject of email-->
+        
         <label for="inputPassword3" class="col-sm-2 col-form-label">Subject</label>
         <div class="col-sm-10">
-          <!--create subject input; no validation yet-->
+         
           <input type="subject" class="form-control" id="subject1" placeholder="Subject">
         </div>
       </div>
 
       <div class="form-group row">
-        <!--Submit button-->
+        
         <div class="col-sm-10">
           <button type="submit" class="btn btn-primary">Submit</button>
+        </div> 
+      </div>
+    </form> 
+  -->
+    <!--End of contact card, beginning of sticky footer-->
+    <footer>
+      <div class="wrapper">
+        <div class="jumbotron footer">
+          <!--Using wrapper, jumbotron and footer elements to create footer-->
+          <div row>
+            <!--Link 1 row 1-->
+            <a href="https://www.gardendesign.com/flowers/easy.html"> Growing Awesome Flowers</a>
+          </div>
+          <!--Links for row 2-->
+          <a href="https://www.killerbees33.com"> FIRST Robotics Team 33 - the Killer Bees </a>
+          <!--Easter Egg of android robot, as the two links on this row are for FIRST Robotics Competition mentoring-->
+          <i class="fa fa-android icon-3x" aria-hidden="true"></i>
+          <!--Link to Digital Badging project, under construction/rebuild after original software was deprecated-->
+          <a href="https://www.firstbadges.com"> Digital Badging - Demonstration project </a>
         </div>
       </div>
-    </form>
-  </div>
-  <!--End of contact card, beginning of sticky footer-->
-  <footer>
-    <div class="wrapper">
-      <div class="jumbotron footer">
-        <!--Using wrapper, jumbotron and footer elements to create footer-->
-        <div row>
-          <!--Link 1 row 1-->
-          <a href="https://www.gardendesign.com/flowers/easy.html"> Growing Awesome Flowers</a>
-        </div>
-        <!--Links for row 2-->
-        <a href="https://www.killerbees33.com"> FIRST Robotics Team 33 - the Killer Bees </a>
-        <!--Easter Egg of android robot, as the two links on this row are for FIRST Robotics Competition mentoring-->
-        <i class="fa fa-android icon-3x" aria-hidden="true"></i>
-        <!--Link to Digital Badging project, under construction/rebuild after original software was deprecated-->
-        <a href="https://www.firstbadges.com"> Digital Badging - Demonstration project </a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
